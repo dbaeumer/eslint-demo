@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "ES6",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": false /* Allow javascript files to be compiled. */,
+        "jsx": "react" /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */,
+        "strict": true /* Enable all strict type-checking options. */,
+        "baseUrl": "./" /* Base directory to resolve non-absolute module names. */,
+        "typeRoots": [
+            "node_modules/@types",
+            "./types"
+        ] /* List of folders to include type definitions from. */,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "paths": {
+            "ad/*": ["src/ad/*"],
+            "stock/*": ["src/stock/*"],
+            "common/*": ["src/common/*"]
+        }
+    }
+}
